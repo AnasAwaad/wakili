@@ -1,50 +1,23 @@
-# Welcome to your Expo app 👋
+# Assignments
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## First Assignment — User Research for Wakili Platform
 
-## Get started
+You can find the first assignment files below in `/Assignments/Survey`.
 
-1. Install dependencies
+- `01_Survey_Questionnaire`: Contains the questions used to collect user data. It covers 4 sections — Demographics, Experience with Legal Services, Trust & Platform Interest, and Features & Preferences — with a mix of multiple choice, rating scales, and open-ended questions. **Result:** 15 structured questions ready to be distributed to target users.
 
-   ```bash
-   npm install
-   ```
+- `02_Survey_Responses_45`: Records the answers collected from 45 participants along with a statistics summary sheet. It quantifies how users currently experience legal services in Egypt. **Result:** 78% of respondents were students, avg. difficulty finding a lawyer was 3.53/5, pricing transparency scored only 2.36/5, and platform adoption likelihood reached 3.89/5.
 
-2. Start the app
+- `03_Empathy_Map`: Synthesizes all survey responses into a behavioral and emotional profile of the target user — what they say, think, feel, and do. **Result:** Users feel anxious and distrustful, say things like _"I don't know where to start"_, and currently rely on Facebook groups and word of mouth to find lawyers.
 
-   ```bash
-   npx expo start
-   ```
+- `04_User_Personas`: Translates the research into two fictional but data-driven user archetypes representing the platform's two sides. **Result:** A **student client** who needs affordable, verified, and easy-to-book legal help — and an **independent lawyer** who struggles with visibility and attracting the right clients online.
 
-In the output, you'll find options to open the app in a
+- `05_User_Research_Report`: Brings all research together into a formal report that validates the Wakili concept with evidence. **Result:** 80% demand verified credentials, 62% accept AI contract review, and 71% rated likelihood to use the platform as 4+/5 — confirming strong product-market fit.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Second Assignment - Wireframes & Figma & Ideation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+You can find this second task in `./Assignments/Assignment 2`
 
-## Get a fresh project
+## Third Assignment - Screens
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can find the app screens in `./screens`

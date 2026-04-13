@@ -1,15 +1,22 @@
-import { Stack } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useFonts, Cairo_400Regular, Cairo_600SemiBold, Cairo_700Bold } from '@expo-google-fonts/cairo';
-import { useEffect } from 'react';
+import {
+  Cairo_400Regular,
+  Cairo_600SemiBold,
+  Cairo_700Bold,
+  useFonts,
+} from "@expo-google-fonts/cairo";
+import { Stack } from "expo-router";
+import * as SplashScreen from "expo-splash-screen";
+import { StatusBar } from "expo-status-bar";
+import { useEffect } from "react";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    'Cairo-Regular': Cairo_400Regular,
-    'Cairo-SemiBold': Cairo_600SemiBold,
-    'Cairo-Bold': Cairo_700Bold,
+    "Cairo-Regular": Cairo_400Regular,
+    "Cairo-SemiBold": Cairo_600SemiBold,
+    "Cairo-Bold": Cairo_700Bold,
   });
 
   useEffect(() => {
@@ -23,11 +30,14 @@ export default function RootLayout() {
   }
 
   return (
-    <Stack screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="index" />
-      <Stack.Screen name="onboarding" />
-      <Stack.Screen name="(auth)" />
-      <Stack.Screen name="(tabs)" />
-    </Stack>
+    <SafeAreaProvider>
+      <StatusBar style="dark" />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="index" />
+        <Stack.Screen name="onboarding" />
+        <Stack.Screen name="(auth)" />
+        <Stack.Screen name="(tabs)" />
+      </Stack>
+    </SafeAreaProvider>
   );
 }
