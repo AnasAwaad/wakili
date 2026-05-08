@@ -1,5 +1,9 @@
 # Assignments
 
+## Frontend Repositories (Will Be Presenting Those)
+- `https://github.com/Wakili-GP/Wakili-frontend`
+- `https://github.com/Wakili-GP/Wakili-frontend-admin`
+  
 ## First Assignment — User Research for Wakili Platform
 
 You can find the first assignment files below in `/Assignments/Survey`.
