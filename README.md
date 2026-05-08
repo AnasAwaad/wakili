@@ -1,5 +1,8 @@
 # Assignments
 
+## Final Report
+- You can find the final report in PDF @ `./MC_Report`
+
 ## Frontend Repositories (Will Be Presenting Those)
 - `https://github.com/Wakili-GP/Wakili-frontend`
 - `https://github.com/Wakili-GP/Wakili-frontend-admin`
